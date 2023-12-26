@@ -43,4 +43,25 @@ body {
   );
   -webkit-background-clip: text;
   color: transparent;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: skewY(2deg);
+    text-shadow: 0.5rem 1rem 2rem rgba(black, 20%);
+  }
+}
+
+.heading-terciary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
 }

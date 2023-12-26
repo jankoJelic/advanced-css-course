@@ -4,7 +4,6 @@ $two-of-4-width: calc(#{$gutter-horizontal} + #{$one-of-4-width} * 2);
 
 .row {
   max-width: $grid-width;
-  background-color: #feee;
   margin: auto;
 
   &:not(:last-child) {
@@ -15,7 +14,6 @@ $two-of-4-width: calc(#{$gutter-horizontal} + #{$one-of-4-width} * 2);
 
   [class^="col-"] {
     float: left;
-    background-color: orangered;
 
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
